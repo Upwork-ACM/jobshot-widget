@@ -5,9 +5,7 @@ import styles from './App.css';
 const App = (props) => {
   const ref = useRef()
   useEffect(() => {
-    const component = document.querySelector('widget-component');
-    console.log('component', ref.current)
-    console.log(props)
+    console.log('QEWQEWQEWQEQ', ref.current)
   }, [props])
   return (
     <Styled styles={styles}>
