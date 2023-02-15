@@ -6,7 +6,7 @@ const App = (props) => {
   const ref = useRef()
   useEffect(() => {
     const component = document.querySelector('widget-component');
-    console.log('component', ref)
+    console.log('component', ref.current)
     console.log(props)
   }, [props])
   return (
