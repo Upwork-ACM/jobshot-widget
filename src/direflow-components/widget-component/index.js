@@ -2,7 +2,7 @@ import { DireflowComponent } from 'direflow-component';
 import App from './App';
 
 const component = document.querySelector('widget-component');
-var type   = component.getAttribute('data-fakeid');
+var type   = component.toString().split(' ');
 console.log('component', type)
 export default DireflowComponent.create({
   component: App,
