@@ -6,7 +6,7 @@ import styles from './App.css';
 const App = (props) => {
   const ref = useRef()
   useEffect(() => {
-    console.log('QEWQEWQEWQEQ', ref.current)
+    console.log('QEWQEWQEWQEQ', props)
   }, [props])
   return (
     <Styled styles={styles}>
