@@ -1,17 +1,14 @@
-/* eslint-disable react/prop-types */
-import React, { useEffect, useRef } from 'react';
+import React, { useEffect } from 'react';
 import { Styled } from 'direflow-component';
 import styles from './App.css';
 
 const App = (props) => {
-  const ref = useRef()
   useEffect(() => {
     console.log('QEWQEWQEWQEQ', props)
   }, [props])
   return (
     <Styled styles={styles}>
       <p>TESTING</p>
-      <p>{props.componentTitle}</p>
     </Styled>
   );
 };
