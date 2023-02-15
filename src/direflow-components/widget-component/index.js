@@ -6,14 +6,6 @@ export default DireflowComponent.create({
   configuration: {
     tagname: 'widget-component'
   },
-  properties: {
-    componentTitle: 'Jobshot Widget',
-    dataFakeId: "dataFakeId",
-    dataTest: "dataTest",
-    fakeId: "dataFakeId",
-    test: "Test",
-    id: "ID",
-  },
   plugins: [
     {
       name: 'font-loader',
