@@ -2,7 +2,7 @@ import { DireflowComponent } from 'direflow-component';
 import App from './App';
 
 const component = document.querySelector('widget-component');
-console.log('component', component.getAttribute('id'))
+console.log('component', component.dataset)
 export default DireflowComponent.create({
   component: App,
   configuration: {
